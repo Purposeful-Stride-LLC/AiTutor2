@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aitutor"
+version = "0.4.0"
+description = "Turn your own source material into cited courses and tutoring sessions. Runs locally on Windows and Linux."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.optional-dependencies]
+# Full-screen terminal UI (aitutor tui). Without it, a plain line-mode UI is used.
+tui = ["textual>=0.80"]
+# Read PDF source material.
+pdf = ["pypdf>=4"]
+all = ["textual>=0.80", "pypdf>=4"]
+dev = ["pytest>=7", "textual>=0.80", "pypdf>=4"]
+
+[project.scripts]
+aitutor = "aitutor.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["aitutor*"]
+
+# Bundled data ships inside the package and is located at run time with
+# importlib.resources, so it works from any install location on any OS.
+[tool.setuptools.package-data]
+aitutor = [
+    "prompts/*.md",
+    "content/courses/*.txt",
+    "content/courses/built/*.json",
+    "content/source_roots/*.json",
+    "content/source_roots/*.md",
+    "content/shards/*.md",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "tests"]

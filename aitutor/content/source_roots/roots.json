@@ -1,0 +1,39 @@
+{
+  "description": "Example source-root layout. Each path is relative to ${SOURCE_ROOT}, which is set on each machine (AITUTOR_SOURCE_ROOT or --source-root). Folders that don't exist on your machine are simply reported as missing. To use your own layout, copy this file to AITUTOR_HOME/roots.json and edit it. Nothing here is read automatically.",
+  "roots": [
+    {
+      "id": "syllabi",
+      "path": "${SOURCE_ROOT}/Syllabi",
+      "domains": [
+        "syllabi",
+        "gzu",
+        "k12"
+      ],
+      "authority": "primary"
+    },
+    {
+      "id": "military-working-dog-fm",
+      "path": "${SOURCE_ROOT}/fm3_19_17MWDog",
+      "domains": [
+        "military",
+        "k9",
+        "manual"
+      ],
+      "authority": "primary",
+      "note": "FM 3-19.17 text + chapter audio"
+    },
+    {
+      "id": "textbooks",
+      "path": "${SOURCE_ROOT}/Textbooks",
+      "domains": [
+        "stem"
+      ],
+      "authority": "primary",
+      "note": "Your own licensed or open textbooks"
+    }
+  ],
+  "parent_k12": {
+    "how": "Pass a district syllabus with `aitutor build --paste <file>` (or ingest_text() from Python)",
+    "optional_online": "State DOE standards URL when network allowed"
+  }
+}

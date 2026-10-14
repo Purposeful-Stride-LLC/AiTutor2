@@ -1,0 +1,26 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+
+# AiTutor user data and local artifacts (never committed)
+.aitutor/
+*.local.json
+*.bak-*
+pack.json
+bundle.json
+
+# Release hygiene
+build/
+*.db
+*.bak*
+*.log
+*.bundle
+*.zip

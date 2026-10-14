@@ -1,0 +1,54 @@
+Little Explorers: A Kindergarten Adventure for Ages 5-6
+
+Goal: Build a foundation for critical thinking and problem-solving through play and exploration.
+Language: Bokmål Norwegian (with English as a secondary intro).
+Delivery: Voice module (talk-to-text) via tablet/phone, guided by Grok.
+Week 1-2: Welcome to Exploration!
+
+    Focus: Curiosity and Listening
+    Activities:
+        Voice Game: "Hva ser du?" (What do you see?) - Describe your room aloud, Grok repeats and asks questions.
+        Story Time: "Den lille utforskeren" (The Little Explorer) - A tale of solving a simple mystery (e.g., finding a lost toy).
+    Skills: Observation, speaking, basic reasoning.
+
+Week 3-4: Numbers and Shapes
+
+    Focus: Math Basics
+    Activities:
+        Voice Count: "Tell Grok how many apples in the picture" (1-10, with visuals).
+        Shape Hunt: "Finn en sirkel!" (Find a circle!) - Name shapes around you.
+    Skills: Counting, geometry, pattern recognition.
+
+Week 5-6: Words and Stories
+
+    Focus: Literacy and Imagination
+    Activities:
+        Voice Story: "Fortell en historie om en hund" (Tell a story about a dog) - Grok adds to it.
+        Letter Sounds: "Si bokstaven A!" (Say the letter A!) - Intro to phonics in Bokmål.
+    Skills: Vocabulary, creativity, early reading prep.
+
+Week 7-8: Nature and Science
+
+    Focus: Exploration and Questions
+    Activities:
+        Voice Experiment: "Hva skjer med vann i kulden?" (What happens to water in the cold?) - Discuss freezing.
+        Nature Walk: "Hva vokser ute?" (What grows outside?) - Name plants/animals.
+    Skills: Scientific curiosity, cause-and-effect thinking.
+
+Week 9-10: Friends and Teamwork
+
+    Focus: Social Skills
+    Activities:
+        Voice Role-Play: "Hjelp en venn å finne skatten!" (Help a friend find the treasure!) - Grok plays along.
+        Sharing Game: "Hva ville du dele?" (What would you share?) - Talk about kindness.
+    Skills: Empathy, cooperation, problem-solving.
+
+Tools & Setup
+
+    Tablet/Phone: Voice input app (e.g., Google Speech-to-Text, set to Bokmål).
+    Grok: Responds in Bokmål, asks simple questions, and praises effort.
+    Offline Tie-In: Printable cards (numbers, shapes) for hands-on play.
+
+Outcome
+
+Your son learns to ask "why," solve small puzzles, and work with others—all while having fun and building confidence for first grade and beyond.

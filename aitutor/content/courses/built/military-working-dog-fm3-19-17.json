@@ -1,0 +1,132 @@
+{
+  "course_id": "military-working-dog-fm3-19-17",
+  "title": "Military Working Dogs (FM 3-19.17)",
+  "audience": "adult",
+  "goal": "Handler fundamentals grounded in FM 3-19.17 for readiness and animal welfare.",
+  "duration_hint": "6 weeks self-paced",
+  "tags": [
+    "built",
+    "military",
+    "k9",
+    "manual"
+  ],
+  "sources": [
+    {
+      "id": "S1",
+      "title": "MilitaryWorkingDogFM3-19_17",
+      "locator": "${SOURCE_ROOT}/fm3_19_17MWDog/MilitaryWorkingDogFM3-19_17.txt",
+      "authority": "primary",
+      "note": "FM 3-19.17 July 2005 text (+ chapter audio on same folder)",
+      "sha256": null
+    }
+  ],
+  "weeks": [
+    {
+      "week": "1",
+      "title": "Doctrine and roles",
+      "objective": "State what an MWD team is for and the handler's responsibilities per FM 3-19.17.",
+      "topics": [
+        "mission roles",
+        "handler duties",
+        "welfare baseline"
+      ],
+      "activity": "Read chapter 1 excerpt; list three handler duties in your own words citing S1.",
+      "source_ids": [
+        "S1"
+      ],
+      "assessment": "Can name roles without inventing policy beyond the FM."
+    },
+    {
+      "week": "2",
+      "title": "Selection and care basics",
+      "objective": "Describe selection/care themes covered in the FM without improvising vet protocols.",
+      "topics": [
+        "selection cues",
+        "daily care",
+        "limits of the manual"
+      ],
+      "activity": "From S1, extract care checklist items that appear in the text; flag gaps for a vet.",
+      "source_ids": [
+        "S1"
+      ],
+      "assessment": "Checklist items map to cited lines; gaps listed honestly."
+    },
+    {
+      "week": "3",
+      "title": "Training fundamentals",
+      "objective": "Outline training principles present in the FM.",
+      "topics": [
+        "obedience",
+        "detection/patrol themes as in source"
+      ],
+      "activity": "Build a one-page week plan that only uses techniques named in S1.",
+      "source_ids": [
+        "S1"
+      ],
+      "assessment": "No unsourced technique claims."
+    },
+    {
+      "week": "4",
+      "title": "Employment and safety",
+      "objective": "Explain employment/safety notes from the manual.",
+      "topics": [
+        "employment contexts",
+        "safety"
+      ],
+      "activity": "Scenario: list safety checks before a training evolution, all cited to S1.",
+      "source_ids": [
+        "S1"
+      ],
+      "assessment": "Safety list cites S1; marks unknowns."
+    },
+    {
+      "week": "5",
+      "title": "Records and accountability",
+      "objective": "Identify record-keeping / accountability themes in the FM.",
+      "topics": [
+        "logs",
+        "accountability"
+      ],
+      "activity": "Draft a blank log template fields that the FM implies; cite.",
+      "source_ids": [
+        "S1"
+      ],
+      "assessment": "Template fields justified from source."
+    },
+    {
+      "week": "6",
+      "title": "Capstone brief",
+      "objective": "Deliver a short handler brief grounded only in S1 + your notes.",
+      "topics": [
+        "synthesis"
+      ],
+      "activity": "5-minute brief: mission, care, training, safety — with source ids.",
+      "source_ids": [
+        "S1"
+      ],
+      "assessment": "Peer/tutor can spot any unsourced claim."
+    }
+  ],
+  "gaps": [
+    "Confirm local/unit SOPs superseding FM where applicable",
+    "Veterinary protocols need qualified human oversight — not invented by tutor"
+  ],
+  "tutor_notes": "Adult professional tone. Never invent DoD credentials. Cite S1. Audio chapters in same folder may support lecture mode via NOVA later.",
+  "provenance": {
+    "schema": "aitutor.course.v1",
+    "content_sha256": "5194cf095a55de64c0ddd576c3d4758a3ef2620fa184ecb2654bb5175dc70bc5",
+    "cite_count": 1,
+    "hashed_zulu": "2026-10-08T19:55:20Z"
+  },
+  "WHI": {
+    "kind": "0x-DOC",
+    "code_hint": "0x-DOC",
+    "course_id": "military-working-dog-fm3-19-17",
+    "title": "Military Working Dogs (FM 3-19.17)",
+    "cites": [
+      "S1"
+    ],
+    "stamped_zulu": "2026-10-08T19:55:20Z",
+    "note": "Optional WHI header for NOVA ingest; AiTutor stays standalone."
+  }
+}
